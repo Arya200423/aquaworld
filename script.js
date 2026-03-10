@@ -89,7 +89,7 @@ const PRODUCTS = [
         category: 'Fish Food', price: 600, stock: 30, badge: 'hot',
         desc: 'Aqua Buddy Combo Pack - Supreme Pro Fish Food & 6 in 1 Advanced Water Conditioner. The ultimate combo for fish health and water quality. Nourish your fish with our premium Supreme Pro Fish Food while keeping their environment pristine with our 6 in 1 Advanced Water Conditioner.',
         images: [
-            "images/Aqua_buddy combo.png"
+            "images/Aqua_buddy_combo.png"
         ]
     },
     {
