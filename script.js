@@ -59,7 +59,7 @@ const PRODUCTS = [
     },
     {
         id: 7, name: ' red diamond color booster Pellets',
-        category: 'Fish Food', price: 420, stock: 60,
+        category: 'Fish Food', price: 250, stock: 60, badge: 'new',
         desc: ' Okiko Red Diamond Color Booster Pellets - Premium Flowerhorn Fish Food with Intense Red Color Enhancing Formula -100 GMS- (Large). Specially formulated to enhance the intense red coloration and overall health of your Flowerhorn cichlids. Packed with high-quality proteins, vitamins, and minerals to promote vibrant red hues and robust growth. Regular feeding helps your Flowerhorn develop its stunning red colors while maintaining optimal nutrition.',
         images: [
             "images/reddiamond.jpg",
@@ -68,7 +68,7 @@ const PRODUCTS = [
     },
     {
         id: 8, name: 'Head Power Pellets',
-        category: 'Fish Food', price: 420, stock: 60,
+        category: 'Fish Food', price: 300, stock: 60, badge: 'new',
         desc: 'Okiko Head Power (Head up) flowerhorn Fish Food with Head Booster Formula -100 GMS- (Large). Specially formulated to enhance the nuchal hump (kok) growth in Flowerhorn cichlids. Packed with high-quality proteins, vitamins, and minerals to promote vibrant colors and overall health. Regular feeding helps your Flowerhorn develop a larger, more impressive head hump while maintaining optimal nutrition.',
         images: [
             "images/headpower_img1.jpg",
@@ -76,7 +76,24 @@ const PRODUCTS = [
         ]
     },
     {
-        id: 9, name: 'Ready made Aquarium tanks available in 2 Feet sizes',
+        id: 9, name: 'Aqua Buddy Supreme Pro Fish food',
+        category: 'Fish Food', price: 350, stock: 50, badge: 'hot',
+        desc: 'Aqua Buddy Supreme Pro Fish Food - Premium Formula for Optimal Health and Vibrant Colors. Specially formulated to meet the nutritional needs of your fish while enhancing their natural beauty.',
+        images: [
+            "images/aqua_buddy_supreme.jpg",
+            "images/Aqua_buddy.png"
+        ]
+    },
+    {
+        id: 10, name: 'Aqua buddy Combo pack Supreme Pro Fish food & 6 in 1 Advaced',
+        category: 'Fish Food', price: 600, stock: 30, badge: 'hot',
+        desc: 'Aqua Buddy Combo Pack - Supreme Pro Fish Food & 6 in 1 Advanced Water Conditioner. The ultimate combo for fish health and water quality. Nourish your fish with our premium Supreme Pro Fish Food while keeping their environment pristine with our 6 in 1 Advanced Water Conditioner.',
+        images: [
+            "images/Aqua_buddy combo.png"
+        ]
+    },
+    {
+        id: 11, name: 'Ready made Aquarium tanks available in 2 Feet sizes',
         category: 'Tank', price: 600, stock: 1, badge: 'new',
         desc: 'Ready-made 2-foot aquarium tanks — perfect for beginners and small setups. Sturdy glass construction with a sleek black frame. Ideal for bettas, small cichlids, or nano aquariums.',
         images: [
@@ -84,7 +101,7 @@ const PRODUCTS = [
         ]
     },
     {
-        id: 10, name: 'Ready made Aquarium tanks available in 3 Feet sizes',
+        id: 12, name: 'Ready made Aquarium tanks available in 3 Feet sizes',
         category: 'Tank', price: 800, stock: 2, badge: 'new',
         desc: 'Ready-made 3-foot aquarium tanks — perfect for medium setups. Sturdy glass construction with a sleek black frame. Ideal for community tanks, medium cichlids, or planted aquariums.',
         images: [
@@ -92,7 +109,7 @@ const PRODUCTS = [
         ]
     },
     {
-        id: 11, name: 'Ready made Aquarium tanks available in 4 Feet sizes',
+        id: 13, name: 'Ready made Aquarium tanks available in 4 Feet sizes',
         category: 'Tank', price: 1200, stock: 2, badge: 'new',
         desc: 'Ready-made 4-foot aquarium tanks — perfect for larger setups. Sturdy glass construction with a sleek black frame. Ideal for larger cichlids, community tanks, or elaborate planted aquariums.',
         images: [
@@ -100,8 +117,8 @@ const PRODUCTS = [
         ]
     },
     {
-        id: 12, name: 'Grooming Mirror for Flowerhorn',
-        category: 'Accessories', price: 200, stock: 12,
+        id: 14, name: 'Grooming Mirror for Flowerhorn',
+        category: 'Accessories', price: 200, stock: 12, badge: 'new',
         desc: 'High-quality grooming mirror designed specifically for Flowerhorn cichlids. Enhances the natural colors and features of your fish while providing a better viewing experience.',
         images: [
             "images/grooming_mirror.jpg"]
